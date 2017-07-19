@@ -1,0 +1,196 @@
+#Version
+
+#State
+[Attack1]
+!PlaySFX 4 0.133 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_1_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_1_ACT_02,Volume:0.8,MinPicth:0.9,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 4 0.133 Voice:False,SFXAssetCount:6,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_1_VOX_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_1_VOX_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_1_VOX_03,SFXAssetName3:mute,SFXAssetName4:mute,SFXAssetName5:mute,Volume:0.7,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Attack2]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_2_1_ACT_01,Volume:0.8,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 6 0.200 Voice:False,SFXAssetCount:6,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_2_VOX_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_2_VOX_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_2_VOX_03,SFXAssetName3:mute,SFXAssetName4:mute,SFXAssetName5:mute,Volume:0.6,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+
+[Attack3]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_1_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_1_ACT_02,Volume:0.3,MinPicth:0.9,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 4 0.133 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_2_ACT_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_3_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 5 0.167 Voice:False,SFXAssetCount:4,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_3_VOX_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_3_VOX_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_3_VOX_03,SFXAssetName3:mute,Volume:0.8,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Blocking]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Blocking_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Blocking_ST_ACT_01,Volume:0.7,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+
+[BlockingHit]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_BlockingHit_Impact_ACT_01,Volume:1,MinPicth:1.1,MaxPitch:1.1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_BlockingHit_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_BlockingHit_ST_ACT_01,Volume:0.8,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:3,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_BlockingHit_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_BlockingHit_ACT_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_BlockingHit_ACT_03,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:4,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Blocking_Hit_VOX_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Blocking_Hit_VOX_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Blocking_Hit_VOX_03,SFXAssetName3:SFX/Actor/PC/Paladin/PC_Paladin_Blocking_Hit_VOX_04,Volume:0.7,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:True,Args: False
+
+[BlockingHit_01_Atk]
+!PlaySFX 2 0.067 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Blocking_Hit_01_Atk_VOX_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 9 0.300 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_BlockingHit_01_Atk_ACT_01,Volume:1,MinPicth:1.5,MaxPitch:1.5,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 13 0.433 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_BlockingHit_01_Atk_End_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_BlockingHit_01_Atk_End_ACT_02,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 33 1.100 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_2_1_ACT_01,Volume:0.8,MinPicth:1.5,MaxPitch:1.5,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 34 1.133 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_2_ACT_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_3_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[BlockingOverwhelming]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Knockback_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 3 0.100 Voice:False,SFXAssetCount:3,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Damage_Big_VOX_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Damage_Big_VOX_03,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Damage_Big_VOX_04,Volume:0.5,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Death]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Death_Hit_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Death_VOX_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Death_Weapon_Drop_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 47 1.567 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Death_Bodyfall_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+
+[EVENT_MOVE0]
+!PlaySFX 2 0.067 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Event_Move_Mix_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+
+[KnockBack]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Knockback_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 3 0.100 Voice:False,SFXAssetCount:3,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Damage_Big_VOX_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Damage_Big_VOX_03,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Damage_Big_VOX_04,Volume:0.5,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[KnockDown]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Knockback_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 3 0.100 Voice:False,SFXAssetCount:3,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Damage_Big_VOX_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Damage_Big_VOX_03,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Damage_Big_VOX_04,Volume:0.5,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[QTE_Cut_00]
+!PlaySFX 105 3.500 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_QTE_Cut_00_0,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[QTE_Cut_01]
+!PlaySFX 7 0.233 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_QTE_Cut_01_1,Volume:0.8,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+
+[QTE_Cut_02]
+!PlaySFX 3 0.100 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_QTE_Cut_02_2,Volume:0.8,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+
+[QTE_Cut_03]
+!PlaySFX 3 0.100 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_QTE_Cut_03_3,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+
+[QTE_Event]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_QTE_Event_Ready_VOX_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_1_ST_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 7 0.233 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_QTE_Event_4,Volume:0.8,MinPicth:1.2,MaxPitch:1.2,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 50 1.667 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_QTE_Event_Start_VOX_02,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 100 3.333 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_QTE_Event_Start_VOX_04,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 150 5.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_QTE_Event_Start_VOX_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+
+[QTE_Event_Fail]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Knockback_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 25 0.833 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/Monster/Mon_Creature_S_Baium/Mon_Creature_S_Baium_QTE_Success_SFX,Volume:0.8,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 35 1.167 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/Monster/Mon_Creature_S_Baium/Mon_Creature_S_Baium_Pattern_B_00_SFX,Volume:0.8,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 50 1.667 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/Monster/Mon_Creature_S_Baium/Mon_Creature_S_Baium_QTE_Success_SFX,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[QTE_Event_Success]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:3,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_3_VOX_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_3_VOX_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_3_VOX_03,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:True,Args: False
+!PlaySFX 20 0.667 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_1_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_1_ACT_02,Volume:0.3,MinPicth:0.9,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 22 0.733 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_2_ACT_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_3_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[QTE_Fail]
+!PlaySFX 3 0.100 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_QTE_Fail_7,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:True,Args: False
+
+[QTE_Finish]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_QTE_Finish_8,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:True,Args: False
+
+[Skill1_1]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_1_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_1_ST_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:3,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_1_VOX_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_1_VOX_02,SFXAssetName2:mute,Volume:0.7,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+
+[Skill1_2]
+!PlaySFX 2 0.067 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_2_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 2 0.067 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_2_ST_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 6 0.200 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_2_ACT_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_3_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 26 0.867 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_2_ACT_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_3_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Skill1_3]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_3_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_3_ST_ACT_01,Volume:0.8,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 13 0.433 Voice:False,SFXAssetCount:3,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_3_VOX_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_3_VOX_02,SFXAssetName2:mute,Volume:0.7,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Skill1_4]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_4_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_4_ST_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 21 0.700 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_4_MN_Impact_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_4_MN_Impact_ACT_02,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+
+[Skill1_5]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_5_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_5_ST_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill1_5_VOX_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Skill2_1]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_1_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_1_ST_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 9 0.300 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_1_Impact_MN_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_1_Impact_MN_ACT_02,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 9 0.300 Voice:False,SFXAssetCount:3,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_1_VOX_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_3_VOX_02,SFXAssetName2:mute,Volume:0.7,MinPicth:0.95,MaxPitch:0.95,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Skill2_2]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_2_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_2_ST_ACT_01,Volume:0.7,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+
+[Skill2_3]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_3_MN_ACT_01,Volume:0.5,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_3_ST_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:3,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_3_VOX_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_3_VOX_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_3_VOX_03,Volume:0.6,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Skill2_4]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_4_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_4_ST_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 16 0.533 Voice:False,SFXAssetCount:3,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_4_VOX_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_4_VOX_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Skill2_4_VOX_03,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Skill3_1]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_1_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_1_ST_ACT_01,Volume:0.5,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 8 0.267 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_11_VOX_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_11_VOX_02,Volume:0.8,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 12 0.400 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_BlockingHit_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Skill3_2]
+!PlaySFX 2 0.067 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_1_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_1_ACT_02,Volume:0.3,MinPicth:0.9,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 4 0.133 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_2_ACT_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_3_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 18 0.600 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_1_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_1_ACT_02,Volume:0.3,MinPicth:0.9,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 20 0.667 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_2_ACT_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_3_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Skill3_3]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_BlockingHit_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Ready_MN_ACT_01,Volume:0.8,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 11 0.367 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_VOX_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_VOX_02,Volume:0.7,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 12 0.400 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Spark_MN_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Spark_MN_ACT_02,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 13 0.433 Voice:False,SFXAssetCount:5,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Fire_MN_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Fire_MN_ACT_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Fire_MN_ACT_03,SFXAssetName3:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Fire_MN_ACT_04,SFXAssetName4:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Fire_MN_ACT_05,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Skill3_3B]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_BlockingHit_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Ready_MN_ACT_01,Volume:0.8,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 11 0.367 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_VOX_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_VOX_02,Volume:0.7,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 12 0.400 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Spark_MN_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Spark_MN_ACT_02,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 13 0.433 Voice:False,SFXAssetCount:5,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Fire_MN_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Fire_MN_ACT_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Fire_MN_ACT_03,SFXAssetName3:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Fire_MN_ACT_04,SFXAssetName4:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Shot_Fire_MN_ACT_05,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Skill3_4]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_4_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_4_ST_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+
+[Skill3_5]
+!PlaySFX 2 0.067 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_2_ACT_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_3_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 14 0.467 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_2_ACT_02,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_3_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 24 0.800 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_1_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_1_ACT_02,Volume:1,MinPicth:0.9,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 27 0.900 Voice:False,SFXAssetCount:2,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_1_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Attack_1_1_ACT_02,Volume:1,MinPicth:0.9,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 32 1.067 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_4_MN_ACT_01,Volume:1,MinPicth:1.3,MaxPitch:1.3,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 39 1.300 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Death_Bodyfall_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 39 1.300 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Death_Hit_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 55 1.833 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_5_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 56 1.867 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_5_ST_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+!PlaySFX 72 2.400 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_3_Ready_MN_ACT_01,Volume:0.8,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_Ambience_2D,StateCancel:False,Args: False
+
+[Stage_Clear]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Stage_Clear_VOX_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+
+[Stage_Start]
+!PlaySFX 40 1.333 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Stage_Clear_VOX_01,Volume:0.7,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:False,Args: False
+!PlaySFX 62 2.067 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Skill3_1_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 69 2.300 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Knockback_MN_ACT_01,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 140 4.667 Voice:False,SFXAssetCount:1,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Attack_3_2_ACT_02,Volume:0.21,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+
+[Walk]
+!PlaySFX 10 0.333 Voice:False,SFXAssetCount:5,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_ACT_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_ACT_03,SFXAssetName3:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_ACT_04,SFXAssetName4:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_ACT_05,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+!PlaySFX 22 0.733 Voice:False,SFXAssetCount:5,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_ACT_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_ACT_03,SFXAssetName3:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_ACT_04,SFXAssetName4:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_ACT_05,Volume:1,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+
+[WalkStop]
+!PlaySFX 0 0.000 Voice:False,SFXAssetCount:3,SFXAssetName0:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_Stop_ACT_01,SFXAssetName1:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_Stop_ACT_02,SFXAssetName2:SFX/Actor/PC/Paladin/PC_Paladin_Footstep_Stop_ACT_03,Volume:0.5,MinPicth:1,MaxPitch:1,AudioMixerPrefab:AudioSource_PC,StateCancel:True,Args: False
+

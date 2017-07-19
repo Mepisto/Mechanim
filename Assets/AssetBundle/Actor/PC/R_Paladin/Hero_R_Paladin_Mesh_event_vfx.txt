@@ -1,0 +1,153 @@
+#Version
+
+#State
+[Attack1]
+!PlayShaderFX 7 0.253 EffectType:RHAND_RIM,Duration:0.3,Color:4293485055,Param0:0.65 False
+!PlayVFX 8 0.267 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_attack_1_11_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.7|0.7|-0.6,offsetScale:1,offsetRotate:-46.6|91.4|59.6,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 11 0.367 VFXCount:1,VFXAssetName0:common/smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Attack2]
+!PlayVFX 6 0.200 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_attack_1_11_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.5,offsetScale:1,offsetRotate:0.0|0.0|-4.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 9 0.300 VFXCount:1,VFXAssetName0:common/smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Attack3]
+!PlayVFX 6 0.200 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_attack_1_11_e03,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.8|1.0|-0.5,offsetScale:1.05,offsetRotate:30.2|93.9|61.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 9 0.300 VFXCount:1,VFXAssetName0:common/smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.2,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Blocking]
+!PlayVFX 4 0.133 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_action_blocking_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|-0.2|0.1,offsetScale:0.95,offsetRotate:-90.0|-90.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 5 0.167 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_action_blocking_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.2|0.6|0.6,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[BlockingHit]
+!PlayPostEffect 0 0.000 EffectType:COLOR_CORRECTION,Pending:0,Duration:0.1,Texture:Level/ColorCorrection/Texture_Hod_T13 False
+!PlayVFX 0 0.000 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_action_blocking_hit_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.7,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 2 0.067 VFXCount:1,VFXAssetName0:common/smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.5,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayPostEffect 10 0.333 EffectType:COLOR_CORRECTION,Pending:0,Duration:0,Texture: True
+
+[BlockingHit_01_Atk]
+!PlayVFX 3 0.100 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_action_blocking_hit_01_atk_e03_sword,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 16 0.533 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_action_blocking_hit_01_atk_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.1|1.1|1.6,offsetScale:1,offsetRotate:0.0|90.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 33 1.100 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_action_blocking_hit_01_atk_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.3|1.1|1.6,offsetScale:1,offsetRotate:0.0|65.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[BlockingOverwhelming]
+!PlayVFX 7 0.233 VFXCount:1,VFXAssetName0:common/smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|-0.5|1.5,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 10 0.333 VFXCount:1,VFXAssetName0:common/smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|-0.5|1.2,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 15 0.500 VFXCount:1,VFXAssetName0:common/smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|-0.5|1.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+
+[QTE_Cut_02]
+!PlayVFX 11 0.367 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_QTE_Cut_02_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+
+[QTE_Event_Success]
+!PlayVFX 26 0.867 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_QTE_Event_Success_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[QTE_Finish]
+!PlayVFX 15 0.500 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_QTE_Cut_finish_01_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 58 1.933 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_QTE_Cut_finish_01_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 58 1.933 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_QTE_Cut_finish_01_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 58 1.933 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_QTE_Cut_finish_01_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:2,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 58 1.933 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_QTE_Cut_finish_01_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.3|0.0|0.2,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 58 1.933 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_QTE_Cut_finish_01_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.3|0.0|-0.2,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 58 1.933 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_QTE_Cut_finish_01_e03,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+
+[Skill1_1]
+!PlayVFX 17 0.567 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_1_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|4.0,offsetScale:1.3,offsetRotate:0.0|180.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Skill1_2]
+!PlayVFX 0 0.000 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_2_e03_sword,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1.2,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 14 0.467 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_2_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.3|2.0|1.7,offsetScale:2.4,offsetRotate:0.0|0.0|-165.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 20 0.667 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_2_e03_sword,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1.2,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 26 0.867 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_2_e01_sword,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|-90.0|180.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 32 1.067 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_2_e03,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.3|2.4,offsetScale:2.3,offsetRotate:-1.7|48.0|-1.2,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Skill1_3]
+!PlayVFX 5 0.167 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e03,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.7,offsetScale:1.2,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 7 0.233 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e02_shield,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.2,offsetScale:0.75,offsetRotate:-90.0|-90.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 14 0.467 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_action_blocking_hit_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|-0.5,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 16 0.533 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|1.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 17 0.567 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-1.9|0.0|2.5,offsetScale:1,offsetRotate:0.0|40.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 19 0.633 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:1.7|0.0|2.9,offsetScale:1.1,offsetRotate:0.0|20.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 20 0.667 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:2.1|0.0|2.5,offsetScale:0.6,offsetRotate:0.0|120.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 21 0.700 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.2|0.0|4.5,offsetScale:0.95,offsetRotate:0.0|60.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 23 0.767 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:2.5|0.0|0.8,offsetScale:1,offsetRotate:0.0|80.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 24 0.800 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-2.1|0.0|2.3,offsetScale:0.6,offsetRotate:0.0|120.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 25 0.833 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-3.2|0.0|1.2,offsetScale:1,offsetRotate:0.0|100.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 27 0.900 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:4.4|0.0|2.8,offsetScale:0.9,offsetRotate:0.0|120.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 29 0.967 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-4.4|0.0|2.5,offsetScale:0.9,offsetRotate:0.0|120.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Skill1_4]
+!PlayVFX 13 0.433 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e02_shield,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.2,offsetScale:1,offsetRotate:-90.0|-90.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 25 0.833 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_attack_1_e03,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.9,offsetScale:1.25,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 25 0.833 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_4_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.9,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Skill1_5]
+!PlayVFX 15 0.500 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_5_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|1.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Skill2_1]
+!PlayVFX 9 0.300 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_1_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 13 0.433 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_1_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Skill2_2]
+!PlayVFX 4 0.133 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_action_blocking_hit_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.3|0.0|0.6,offsetScale:0.5,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 8 0.267 VFXCount:1,VFXAssetName0:common/smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.5,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 8 0.267 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_2_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.2|1.4|0.4,offsetScale:0.88,offsetRotate:45.0|90.0|60.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+
+[Skill2_3]
+!PlayVFX 11 0.267 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_3_e03,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:2.5,offsetRotate:90.0|45.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 11 0.267 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_3_e03_sword,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 25 0.833 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_3_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|1.0|2.5,offsetScale:1.4,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Skill2_4]
+!PlayVFX 2 0.067 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_4_e04,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|2.3,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 7 0.233 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill1_3_e02_shield,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.2,offsetScale:1,offsetRotate:-90.0|-90.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 12 0.400 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_4_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|1.8,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 14 0.467 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_4_e03,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|2.1,offsetScale:1.2,offsetRotate:0.0|180.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 15 0.500 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_4_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|4.0|2.1,offsetScale:2,offsetRotate:0.0|0.0|90.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 15 0.500 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_4_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|4.0|2.1,offsetScale:2,offsetRotate:0.0|180.0|-90.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 16 0.533 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_action_blocking_hit_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.5,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 19 0.633 VFXCount:1,VFXAssetName0:common/smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|1.0|-0.6,offsetScale:3,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 21 0.700 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_4_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|1.7|2.1,offsetScale:1.4,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 21 0.700 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill2_4_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|1.7|2.1,offsetScale:1.4,offsetRotate:0.0|180.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Skill3_1]
+!PlayVFX 4 0.133 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_1_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:-90.0|-90.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 10 0.333 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_1_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Skill3_2]
+!PlayVFX 4 0.133 VFXCount:1,VFXAssetName0:common/smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.5,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 7 0.233 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_2_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.2|1.3|1.1,offsetScale:0.88,offsetRotate:45.0|90.0|42.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 25 0.833 VFXCount:1,VFXAssetName0:common/smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.5,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 25 0.833 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_2_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.2|1.3|1.1,offsetScale:0.88,offsetRotate:45.0|90.0|40.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Skill3_3]
+!PlayVFX 1 0.033 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_action_blocking_hit_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.5,offsetScale:0.9,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 7 0.233 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_3_e02_shield,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:-90.0|-90.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 8 0.267 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_3_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 8 0.267 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_3_e04,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 11 0.367 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_3_e03,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.2,offsetScale:1,offsetRotate:90.0|45.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+
+[Skill3_3B]
+!PlayVFX 1 0.033 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_Paladin_C_action_blocking_hit_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.5,offsetScale:0.9,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 7 0.233 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_3_e02_shield,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:-90.0|-90.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 8 0.267 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3B_3_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 8 0.267 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3B_3_e04,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 11 0.367 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_3_e03,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.2,offsetScale:1,offsetRotate:90.0|45.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+
+[Skill3_4]
+!PlayVFX 6 0.200 VFXCount:1,VFXAssetName0:common/smoke_e03,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.3|2.0,offsetScale:2,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 8 0.267 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_4_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|0.0,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+
+[Skill3_5]
+!PlayVFX 1 0.033 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_5_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.2|4.6|0.1,offsetScale:0.95,offsetRotate:-46.0|-251.0|115.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 16 0.533 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_5_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.2|4.4|0.4,offsetScale:1.13,offsetRotate:25.0|-261.0|124.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 26 0.867 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_5_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.2|4.9|0.3,offsetScale:1,offsetRotate:-40.0|-91.5|9.4,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 42 1.400 VFXCount:1,VFXAssetName0:common/smoke_e03,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.1|0.6,offsetScale:2,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 81 2.700 VFXCount:1,VFXAssetName0:common/smoke_e03,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|-0.5,offsetScale:4,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+!PlayVFX 81 2.700 VFXCount:1,VFXAssetName0:Pc/paladin/Hero_R_Paladin_C_skill3_5_e02,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.0|-0.5,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Stage_Start]
+!PlayVFX 70 2.333 VFXCount:1,VFXAssetName0:common/smoke_e03_01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:-0.1|0.3|-0.5,offsetScale:1.5,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:False,ExitDestory:True,Flip:False False
+
+[Walk]
+!PlayVFX 5 0.183 VFXCount:1,VFXAssetName0:common/walk_smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.1|-0.3,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+!PlayVFX 16 0.517 VFXCount:1,VFXAssetName0:common/walk_smoke_e01,VFXBoneName:,IsWorldVFX:False,SnapToGround:False,Offset:0.0|0.1|-0.3,offsetScale:1,offsetRotate:0.0|0.0|0.0,Delay:0,StopOnStateChange:False,SocketName:,Attached:True,ExitDestory:True,Flip:False False
+

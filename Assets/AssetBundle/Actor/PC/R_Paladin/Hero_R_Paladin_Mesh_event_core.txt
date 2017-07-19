@@ -1,0 +1,376 @@
+#Version
+
+#State
+[Attack1]
+clipTime 0.7333333
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_01_Attack
+!SendAniEvent 10 0.333 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 11 0.367 EventName:DISABLE_ATTACK,Argument:0 False
+
+[Attack1_End]
+clipTime 0.4000001
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_01_Attack_Return
+
+[Attack2]
+clipTime 0.7
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_02_Attack
+!SendAniEvent 9 0.300 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 10 0.333 EventName:DISABLE_ATTACK,Argument:0 False
+
+[Attack2_End]
+clipTime 0.4000001
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_02_Attack_Return
+
+[Attack3]
+clipTime 0.9000001
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_03_Attack
+!SendAniEvent 10 0.333 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 11 0.367 EventName:DISABLE_ATTACK,Argument:0 False
+
+[Blocking]
+clipTime 0.8000001
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Action_Blocking_Start
+
+[BlockingEnd]
+clipTime 0.2333334
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Action_Blocking_End
+
+[BlockingHit]
+clipTime 1
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Action_Blocking_Hit
+!SendAniEvent 10 0.333 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 11 0.367 EventName:DISABLE_ATTACK,Argument:0 False
+
+[BlockingHit_01_Atk]
+clipTime 2.5
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Action_Blocking_Hit_01_Atk
+!SendAniEvent 16 0.533 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 17 0.567 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 40 1.333 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 41 1.367 EventName:DISABLE_ATTACK,Argument:0 False
+
+[BlockingOverwhelming]
+clipTime 1.333333
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Action_Blocking_Fail
+
+[Death]
+clipTime 2.233333
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Death
+
+[Die_Death]
+clipTime 0.03333354
+isLooping True
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Death_Loop
+
+[EVENT_MOVE0]
+clipTime 4.966667
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Event_Move
+
+[HIGH_CENTER]
+clipTime 0.7333333
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Hit
+
+[HIGH_LEFT]
+clipTime 0.7333338
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Hit_Left
+
+[HIGH_RIGHT]
+clipTime 0.7333335
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Hit_Right
+
+[Hit]
+clipTime 0.7333335
+isLooping False
+clipName 
+
+[Idle]
+clipTime 1.333333
+isLooping True
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Idle
+
+[KnockBack]
+clipTime 1.333333
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Hit_Knockback
+
+[KnockDown]
+clipTime 1.333333
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Hit_Knockback
+
+[NewEventState]
+clipTime 0
+isLooping False
+clipName 
+
+[QTE_Cut_00]
+clipTime 5.333333
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_QTE_Cut_00
+
+[QTE_Cut_01]
+clipTime 4.466667
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_QTE_Cut_01
+
+[QTE_Cut_02]
+clipTime 4.933334
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_QTE_Cut_02
+
+[QTE_Cut_03]
+clipTime 5.933335
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_QTE_Cut_03
+
+[QTE_Event]
+clipTime 6
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_QTE_Event
+
+[QTE_Event_Fail]
+clipTime 6
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_QTE_Event_Fail
+
+[QTE_Event_Success]
+clipTime 5.1
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_QTE_Event_Success
+
+[QTE_Fail]
+clipTime 3.566667
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_QTE_Fail
+
+[QTE_Finish]
+clipTime 12.53334
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_QTE_Cut_Finish
+
+[Skill1_1]
+clipTime 2.033334
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_01_01_Skill
+!SendAniEvent 22 0.733 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 23 0.767 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 39 1.300 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 40 1.333 EventName:DISABLE_ATTACK,Argument:1 False
+
+[Skill1_2]
+clipTime 1.566667
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_01_02_Skill
+!SendAniEvent 15 0.500 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 16 0.533 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 35 1.167 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 36 1.200 EventName:DISABLE_ATTACK,Argument:1 False
+
+[Skill1_3]
+clipTime 1.666667
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_01_03_Skill
+!SendAniEvent 9 0.300 EventName:ENABLE_ATTACK,Argument:8 False
+!SendAniEvent 10 0.333 EventName:DISABLE_ATTACK,Argument:8 False
+!SendAniEvent 19 0.633 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 20 0.667 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 21 0.700 EventName:DISABLE_ATTACK,Argument:1 False
+!SendAniEvent 22 0.733 EventName:ENABLE_ATTACK,Argument:2 False
+!SendAniEvent 23 0.767 EventName:DISABLE_ATTACK,Argument:2 False
+!SendAniEvent 24 0.800 EventName:ENABLE_ATTACK,Argument:3 False
+!SendAniEvent 25 0.833 EventName:DISABLE_ATTACK,Argument:3 False
+!SendAniEvent 26 0.867 EventName:ENABLE_ATTACK,Argument:4 False
+!SendAniEvent 27 0.900 EventName:DISABLE_ATTACK,Argument:4 False
+!SendAniEvent 28 0.933 EventName:ENABLE_ATTACK,Argument:5 False
+!SendAniEvent 29 0.967 EventName:DISABLE_ATTACK,Argument:5 False
+!SendAniEvent 30 1.000 EventName:ENABLE_ATTACK,Argument:6 False
+!SendAniEvent 31 1.033 EventName:DISABLE_ATTACK,Argument: False
+!SendAniEvent 32 1.067 EventName:ENABLE_ATTACK,Argument:7 False
+!SendAniEvent 33 1.100 EventName:DISABLE_ATTACK,Argument:7 False
+
+[Skill1_4]
+clipTime 1.2
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_01_04_skill
+!SendAniEvent 26 0.867 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 27 0.900 EventName:DISABLE_ATTACK,Argument:0 False
+
+[Skill1_5]
+clipTime 3.733334
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_01_05_skill
+!SendAniEvent 16 0.533 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 17 0.567 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 22 0.733 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 23 0.767 EventName:DISABLE_ATTACK,Argument:1 False
+!SendAniEvent 28 0.933 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 29 0.967 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 34 1.133 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 35 1.167 EventName:DISABLE_ATTACK,Argument:1 False
+!SendAniEvent 40 1.333 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 41 1.367 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 46 1.533 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 47 1.567 EventName:DISABLE_ATTACK,Argument:1 False
+!SendAniEvent 52 1.733 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 53 1.767 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 58 1.933 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 59 1.967 EventName:DISABLE_ATTACK,Argument:1 False
+!SendAniEvent 64 2.133 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 65 2.167 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 70 2.333 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 71 2.367 EventName:DISABLE_ATTACK,Argument:1 False
+!SendAniEvent 76 2.533 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 77 2.567 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 82 2.733 EventName:ENABLE_ATTACK,Argument:2 False
+!SendAniEvent 83 2.767 EventName:DISABLE_ATTACK,Argument:3 False
+
+[Skill2_1]
+clipTime 0.6666667
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_02_01_Skill
+!SendAniEvent 14 0.467 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 15 0.500 EventName:DISABLE_ATTACK,Argument:0 False
+
+[Skill2_1_End]
+clipTime 0.2666667
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_02_01_Skill_Return
+
+[Skill2_2]
+clipTime 0.6333334
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_02_02_Skill
+!SendAniEvent 11 0.367 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 12 0.400 EventName:DISABLE_ATTACK,Argument:0 False
+
+[Skill2_2_End]
+clipTime 0.5666667
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_02_02_Skill_Return
+
+[Skill2_3]
+clipTime 1.233333
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_02_03_Skill
+!SendAniEvent 28 0.933 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 29 0.967 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 30 1.000 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 31 1.033 EventName:DISABLE_ATTACK,Argument:1 False
+
+[Skill2_4]
+clipTime 1.366667
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_02_04_Skill
+!SendAniEvent 14 0.467 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 22 0.733 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 23 0.767 EventName:DISABLE_ATTACK,Argument:0 False
+
+[Skill3_1]
+clipTime 0.8333334
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_03_01_Skill
+!SendAniEvent 13 0.433 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 14 0.467 EventName:DISABLE_ATTACK,Argument:0 False
+
+[Skill3_2]
+clipTime 1.266667
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_03_02_Skill
+!SendAniEvent 9 0.300 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 10 0.333 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 25 0.833 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 26 0.867 EventName:DISABLE_ATTACK,Argument:1 False
+
+[Skill3_2_End]
+clipTime 0.8333335
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_03_02_Skill_Return
+
+[Skill3_3]
+clipTime 1.1
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_03_03_Skill
+!SendAniEvent 6 0.200 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 7 0.233 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 15 0.500 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 16 0.533 EventName:DISABLE_ATTACK,Argument:1 False
+
+[Skill3_3B]
+clipTime 1.1
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_03_03_Skill
+!SendAniEvent 6 0.200 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 7 0.233 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 9 0.300 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 10 0.333 EventName:DISABLE_ATTACK,Argument:1 False
+!SendAniEvent 12 0.400 EventName:ENABLE_ATTACK,Argument:2 False
+!SendAniEvent 13 0.433 EventName:DISABLE_ATTACK,Argument:2 False
+!SendAniEvent 15 0.500 EventName:ENABLE_ATTACK,Argument:3 False
+!SendAniEvent 16 0.533 EventName:DISABLE_ATTACK,Argument:3 False
+!SendAniEvent 18 0.600 EventName:ENABLE_ATTACK,Argument:4 False
+!SendAniEvent 19 0.633 EventName:DISABLE_ATTACK,Argument:4 False
+!SendAniEvent 21 0.700 EventName:ENABLE_ATTACK,Argument:5 False
+!SendAniEvent 22 0.733 EventName:DISABLE_ATTACK,Argument:5 False
+
+[Skill3_4]
+clipTime 0.7333335
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_03_04_skill
+!SendAniEvent 10 0.333 EventName:ENABLE_ATTACK,Argument:10 False
+!SendAniEvent 11 0.367 EventName:DISABLE_ATTACK,Argument:11 False
+
+[Skill3_4_End]
+clipTime 0.9
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_03_04_skill_Return
+
+[Skill3_5]
+clipTime 3.400001
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_03_05_skill
+!SendAniEvent 3 0.100 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 4 0.133 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 17 0.567 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 18 0.600 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 27 0.900 EventName:ENABLE_ATTACK,Argument:0 False
+!SendAniEvent 28 0.933 EventName:DISABLE_ATTACK,Argument:0 False
+!SendAniEvent 37 1.233 EventName:ENABLE_ATTACK,Argument:1 False
+!SendAniEvent 38 1.267 EventName:DISABLE_ATTACK,Argument:1 False
+!SendAniEvent 83 2.767 EventName:ENABLE_ATTACK,Argument:2 False
+!SendAniEvent 84 2.800 EventName:DISABLE_ATTACK,Argument:2 False
+
+[Stage_Clear]
+clipTime 0.8333334
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_03_01_Skill
+
+[Stage_Start]
+clipTime 5.266667
+isLooping False
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_Event_Entrance
+
+[Walk]
+clipTime 0.8000001
+isLooping True
+clipName PC/R_Paladin/Animations/Hero_R_Paladin_C_run
+
+[WalkStop]
+clipTime 0
+isLooping False
+clipName 
+

@@ -1,0 +1,5370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1778981253318212}
+  m_IsPrefabParent: 1
+--- !u!1 &1778981253318212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4564532637873016}
+  - component: {fileID: 114267479109779316}
+  m_Layer: 0
+  m_Name: Hero_R_Paladin_Mesh_FSM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4564532637873016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778981253318212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114267479109779316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778981253318212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682facbe36c2894488b207eafc32efe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_fsm:
+    m_activeStateName: 
+    EnableDebugFlow: 0
+    events:
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: ABILITY1
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: ABILITY2
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: AIRBORNE
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: ANI_EXIT_TIME
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: BLOCK
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: BLOCKING_OVERWHELMING
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: DAMAGED
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: END
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: EVENT_MOVE0
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: FINISH_STAGE
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: FIRE3
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: G_DEATH
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: G_HIT
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: G_SKILL
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: HIGH_CENTER
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: HIGH_LEFT
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: HIGH_RIGHT
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: IDLE
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Idle
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: KNOCKBACK
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: KNOCKDOWN
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: QTE
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: QTE_FAIL
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: QTE_VERSUS
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: QTE_VERSUS_LOSE
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: QTE_VERSUS_WIN
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: REBIRTH
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: START_STAGE
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill1_1
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill1_2
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill1_3
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill1_4
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill1_5
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill2_1
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill2_2
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill2_3
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill2_4
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill3_1
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill3_2
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill3_3
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill3_3B
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill3_4
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Skill3_5
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: Stage_Start
+    - isGlobal: 0
+      isSystemEvent: 0
+      name: WALK
+    ExposedEvents: []
+    globalTransitions:
+    - colorIndex: 0
+      fsmEvent:
+        isGlobal: 0
+        isSystemEvent: 0
+        name: G_DEATH
+      linkConstraint: 0
+      linkStyle: 0
+      toState: Death
+      duration: 0
+      exitTime: 0
+      hasExitTime: 0
+      hasFixedDuration: 0
+      offset: 0
+    - colorIndex: 0
+      fsmEvent:
+        isGlobal: 0
+        isSystemEvent: 0
+        name: FINISH_STAGE
+      linkConstraint: 0
+      linkStyle: 0
+      toState: Stage_Clear
+      duration: 0
+      exitTime: 0
+      hasExitTime: 0
+      hasFixedDuration: 0
+      offset: 0
+    - colorIndex: 0
+      fsmEvent:
+        isGlobal: 0
+        isSystemEvent: 0
+        name: EVENT_MOVE0
+      linkConstraint: 0
+      linkStyle: 0
+      toState: EVENT_MOVE0
+      duration: 0
+      exitTime: 0
+      hasExitTime: 0
+      hasFixedDuration: 0
+      offset: 0
+    - colorIndex: 0
+      fsmEvent:
+        isGlobal: 0
+        isSystemEvent: 0
+        name: QTE
+      linkConstraint: 0
+      linkStyle: 0
+      toState: QTE_Cut_00
+      duration: 0
+      exitTime: 0
+      hasExitTime: 0
+      hasFixedDuration: 0
+      offset: 0
+    - colorIndex: 0
+      fsmEvent:
+        isGlobal: 0
+        isSystemEvent: 0
+        name: QTE_FAIL
+      linkConstraint: 0
+      linkStyle: 0
+      toState: QTE_Fail
+      duration: 0
+      exitTime: 0
+      hasExitTime: 0
+      hasFixedDuration: 0
+      offset: 0
+    - colorIndex: 0
+      fsmEvent:
+        isGlobal: 0
+        isSystemEvent: 0
+        name: QTE_VERSUS
+      linkConstraint: 0
+      linkStyle: 0
+      toState: QTE_Event
+      duration: 0
+      exitTime: 0
+      hasExitTime: 0
+      hasFixedDuration: 0
+      offset: 0
+    - colorIndex: 0
+      fsmEvent:
+        isGlobal: 0
+        isSystemEvent: 0
+        name: ABILITY1
+      linkConstraint: 0
+      linkStyle: 0
+      toState: Blocking
+      duration: 0
+      exitTime: 0
+      hasExitTime: 0
+      hasFixedDuration: 0
+      offset: 0
+    - colorIndex: 0
+      fsmEvent:
+        isGlobal: 0
+        isSystemEvent: 0
+        name: G_HIT
+      linkConstraint: 0
+      linkStyle: 0
+      toState: Hit
+      duration: 0
+      exitTime: 0
+      hasExitTime: 0
+      hasFixedDuration: 0
+      offset: 0
+    - colorIndex: 0
+      fsmEvent:
+        isGlobal: 0
+        isSystemEvent: 0
+        name: START_STAGE
+      linkConstraint: 0
+      linkStyle: 0
+      toState: Stage_Start
+      duration: 0
+      exitTime: 0
+      hasExitTime: 0
+      hasFixedDuration: 0
+      offset: 0
+    name: FSM
+    RestartOnEnable: 1
+    showStateLabel: 1
+    startState: Stage_Start
+    states:
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Stage_Start
+      position:
+        serializedVersion: 2
+        x: 1122
+        y: 570
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Idle
+        duration: 0
+        exitTime: 1
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 5.266667
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Stage_Start
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SpawnState
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: 00000000
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.Actions.FsmDeathAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames:
+        - 
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Death
+      position:
+        serializedVersion: 2
+        x: 1483
+        y: 614
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Die_Death
+        duration: 0.0025713034
+        exitTime: 0.88805974
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 2.2333333
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Death
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: Root
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: b382b5f8
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.Actions.FsmHitAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 04000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.Actions.FsmHitAction+KeyValuePair
+        byteData: 0100000044414d41474544020000004b4e4f434b444f574e03000000414952424f524e4500000000454e44
+        customNames:
+        - 
+        customTypeNames:
+        - HutongGames.PlayMaker.Actions.FsmHitAction+KeyValuePair
+        - HutongGames.PlayMaker.Actions.FsmHitAction+KeyValuePair
+        - HutongGames.PlayMaker.Actions.FsmHitAction+KeyValuePair
+        - HutongGames.PlayMaker.Actions.FsmHitAction+KeyValuePair
+        customTypeSizes: 02000000020000000200000002000000
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 00000000000000000400000007000000000000000400000009000000000000000400000008000000000000000400000003000000
+        paramDataPos: 00000000000000000000000004000000010000000b0000000f00000002000000180000001c000000030000002400000028000000
+        paramDataType: 0c000000280000000700000017000000280000000700000017000000280000000700000017000000280000000700000017000000
+        paramName:
+        - eventKeyValues
+        - 
+        - key
+        - value
+        - 
+        - key
+        - value
+        - 
+        - key
+        - value
+        - 
+        - key
+        - value
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Hit
+      position:
+        serializedVersion: 2
+        x: 336.39844
+        y: 170.39844
+        width: 127
+        height: 96
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: DAMAGED
+        linkConstraint: 0
+        linkStyle: 0
+        toState: NormalHit
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: KNOCKDOWN
+        linkConstraint: 0
+        linkStyle: 0
+        toState: KnockDown
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: AIRBORNE
+        linkConstraint: 0
+        linkStyle: 0
+        toState: AirBorne
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: END
+        linkConstraint: 0
+        linkStyle: 0
+        toState: HitEnd
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: KnockBack
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 0
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: 
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: HitState
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: 00000000
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.Actions.FsmHitLeaveAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames:
+        - 
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: HitEnd
+      position:
+        serializedVersion: 2
+        x: 309.60938
+        y: 532.875
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Idle
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 0
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: 
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: HitState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: KnockDown
+      position:
+        serializedVersion: 2
+        x: 60.507812
+        y: 240.9375
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: HitEnd
+        duration: 0.07718015
+        exitTime: 0.9342298
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 1.3333334
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: KnockDown
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: HitState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: AirBorne
+      position:
+        serializedVersion: 2
+        x: 330.39844
+        y: 288.39844
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: HitEnd
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 0
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: 
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: HitState
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: 00000000
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.Actions.FsmBlockingAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames:
+        - 
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Blocking
+      position:
+        serializedVersion: 2
+        x: 1757.6953
+        y: 383.1328
+        width: 215
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: BLOCK
+        linkConstraint: 0
+        linkStyle: 0
+        toState: BlockingHit
+        duration: 0.031867564
+        exitTime: 0.9571118
+        hasExitTime: 0
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: BLOCKING_OVERWHELMING
+        linkConstraint: 0
+        linkStyle: 0
+        toState: BlockingOverwhelming
+        duration: 0.25
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: BlockingEnd
+        duration: 0
+        exitTime: 1
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.8000001
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Blocking
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: BlockingState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: BlockingHit
+      position:
+        serializedVersion: 2
+        x: 1556.6953
+        y: 382.1328
+        width: 127
+        height: 48
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ABILITY2
+        linkConstraint: 0
+        linkStyle: 0
+        toState: BlockingHit_01_Atk
+        duration: 0.28452355
+        exitTime: 0.6413346
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: BlockingEndState
+        duration: 0.25
+        exitTime: 0.75000006
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 1.0000002
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: BlockingHit
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: BlockingState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: BlockingEnd
+      position:
+        serializedVersion: 2
+        x: 1757.6953
+        y: 462.1328
+        width: 215
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: DAMAGED
+        linkConstraint: 0
+        linkStyle: 0
+        toState: BlockingHit
+        duration: 0.013994426
+        exitTime: 0.93613124
+        hasExitTime: 0
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: BLOCKING_OVERWHELMING
+        linkConstraint: 0
+        linkStyle: 0
+        toState: BlockingOverwhelming
+        duration: 0.053076938
+        exitTime: 0.84395576
+        hasExitTime: 0
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: BlockingEndState
+        duration: 0.25
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.23333341
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: BlockingEnd
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: BlockingState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: QTE_Cut_03
+      position:
+        serializedVersion: 2
+        x: 1304.2188
+        y: 101.86719
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: QTE_Finish
+        duration: 0
+        exitTime: 1
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 5.9333353
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: QTE_Cut_03
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: QTE_Baium
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: QTE_Cut_02
+      position:
+        serializedVersion: 2
+        x: 1145.2188
+        y: 101.86719
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: QTE_Cut_03
+        duration: 0
+        exitTime: 1
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 4.9333344
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: QTE_Cut_02
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: QTE_Baium
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: QTE_Cut_01
+      position:
+        serializedVersion: 2
+        x: 980.21875
+        y: 101.86719
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: QTE_Cut_02
+        duration: 0
+        exitTime: 1
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 4.466667
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: QTE_Cut_01
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: QTE_Baium
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: QTE_Finish
+      position:
+        serializedVersion: 2
+        x: 1464.2188
+        y: 100.86719
+        width: 100
+        height: 16
+      transitions: []
+      looping: 0
+      AnimLength: 12.533337
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: QTE_Finish
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: QTE_Baium
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: QTE_Fail
+      position:
+        serializedVersion: 2
+        x: 816.46094
+        y: 207.52344
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Idle
+        duration: 0
+        exitTime: 1
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 3.5666668
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: QTE_Fail
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: QTE_Baium
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: QTE_Cut_00
+      position:
+        serializedVersion: 2
+        x: 817.21875
+        y: 101.86719
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: QTE_Cut_01
+        duration: 0
+        exitTime: 1
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 5.3333335
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: QTE_Cut_00
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: QTE_Baium
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: BlockingHit_01_Atk
+      position:
+        serializedVersion: 2
+        x: 1375.6953
+        y: 383.1328
+        width: 153
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: BlockingEndState
+        duration: 0.25
+        exitTime: 0.9
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 2.5
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: BlockingHit_01_Atk
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: BlockingState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: BlockingOverwhelming
+      position:
+        serializedVersion: 2
+        x: 1772.6953
+        y: 545.1328
+        width: 173
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: BlockingEndState
+        duration: 0.25
+        exitTime: 0.8125
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 1.3333334
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: BlockingOverwhelming
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: BlockingState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Die_Death
+      position:
+        serializedVersion: 2
+        x: 1356
+        y: 613
+        width: 100
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: REBIRTH
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Idle
+        duration: 0.25
+        exitTime: 0.88805974
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 1
+      AnimLength: 0.03333354
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Die_Death
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: Root
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: KnockBack
+      position:
+        serializedVersion: 2
+        x: 63.398438
+        y: 171.39844
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: HitEnd
+        duration: 0.099830866
+        exitTime: 0.9251268
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 1.3333334
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: KnockBack
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: HitState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Stage_Clear
+      position:
+        serializedVersion: 2
+        x: 731.2578
+        y: 332.5
+        width: 102
+        height: 16
+      transitions: []
+      looping: 0
+      AnimLength: 0.8333334
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Stage_Clear
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: Root
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: QTE_Event_Success
+      position:
+        serializedVersion: 2
+        x: 1130
+        y: 366
+        width: 155
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Idle
+        duration: 0.25
+        exitTime: 0.9509804
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 5.1000004
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: QTE_Event_Success
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: QTE_Baium_VERSUS
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: QTE_Event_Fail
+      position:
+        serializedVersion: 2
+        x: 1128
+        y: 322
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Idle
+        duration: 0
+        exitTime: 1
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 6.0000005
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: QTE_Event_Fail
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: QTE_Baium_VERSUS
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: QTE_Event
+      position:
+        serializedVersion: 2
+        x: 1130
+        y: 262
+        width: 155
+        height: 48
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: QTE_VERSUS_LOSE
+        linkConstraint: 0
+        linkStyle: 0
+        toState: QTE_Event_Fail
+        duration: 0
+        exitTime: 1
+        hasExitTime: 0
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: QTE_VERSUS_WIN
+        linkConstraint: 0
+        linkStyle: 0
+        toState: QTE_Event_Success
+        duration: 0
+        exitTime: 1
+        hasExitTime: 0
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 6.0000005
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: QTE_Event
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: QTE_Baium_VERSUS
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: EVENT_MOVE0
+      position:
+        serializedVersion: 2
+        x: 871.2578
+        y: 325.5
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Idle
+        duration: 0.27891922
+        exitTime: 0.9436884
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 4.966667
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: EVENT_MOVE0
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: Root
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill1_1
+      position:
+        serializedVersion: 2
+        x: 531.41406
+        y: 546.25
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.8770492
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.8770492
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.8770492
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 2.0333335
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill1_1
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill1_2
+      position:
+        serializedVersion: 2
+        x: 531.1719
+        y: 616.9219
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.03
+        exitTime: 0.97
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.84042555
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.84042555
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 1.5666668
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill1_2
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill1_3
+      position:
+        serializedVersion: 2
+        x: 530.8281
+        y: 688.58594
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.85
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.85
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.85
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 1.6666667
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill1_3
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill2_1
+      position:
+        serializedVersion: 2
+        x: 528.6094
+        y: 900.1953
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.625
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.625
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill2_1_End
+        duration: 0.07028973
+        exitTime: 0.8945654
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.6666667
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill2_1
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill2_2
+      position:
+        serializedVersion: 2
+        x: 529.6094
+        y: 970.1953
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.60526323
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.60526323
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill2_2_End
+        duration: 0
+        exitTime: 0.99505925
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0.009696868
+      looping: 0
+      AnimLength: 0.6333334
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill2_2
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill2_3
+      position:
+        serializedVersion: 2
+        x: 529.91406
+        y: 1041.0625
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.7972973
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.7972973
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.7972973
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 1.2333335
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill2_3
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill2_4
+      position:
+        serializedVersion: 2
+        x: 528.90625
+        y: 1109.7812
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.81707317
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.81707317
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.81707317
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 1.3666666
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill2_4
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill3_1
+      position:
+        serializedVersion: 2
+        x: 528.85156
+        y: 1179.9688
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.70000005
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.70000005
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.70000005
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.8333334
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill3_1
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill3_2
+      position:
+        serializedVersion: 2
+        x: 527.85156
+        y: 1248.9688
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.8026316
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.8026316
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill3_2_End
+        duration: 0.09792316
+        exitTime: 0.9226923
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 1.2666669
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill3_2
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill3_3
+      position:
+        serializedVersion: 2
+        x: 528.2578
+        y: 1319.1953
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.7727274
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.7727274
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.7727274
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 1.1000004
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill3_3
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill1_4
+      position:
+        serializedVersion: 2
+        x: 530.27344
+        y: 759.3594
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.7916667
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.7916667
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.7916667
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 1.2
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill1_4
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill1_5
+      position:
+        serializedVersion: 2
+        x: 529.8281
+        y: 829.89844
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.93303573
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.93303573
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.93303573
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 3.7333338
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill1_5
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill3_4
+      position:
+        serializedVersion: 2
+        x: 522.85156
+        y: 1460.9688
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.659091
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.659091
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill3_4_End
+        duration: 0.10858792
+        exitTime: 0.8519256
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.73333347
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill3_4
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill3_5
+      position:
+        serializedVersion: 2
+        x: 523.85156
+        y: 1531.9688
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.9264706
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.9264706
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.9264706
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 3.4000006
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill3_5
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill2_1_End
+      position:
+        serializedVersion: 2
+        x: 690.5625
+        y: 900.71875
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.06250018
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.06250018
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.06250018
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.2666667
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill2_1_End
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill2_2_End
+      position:
+        serializedVersion: 2
+        x: 691.5625
+        y: 974.71875
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.5588236
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.5588236
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.5588236
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.5666667
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill2_2_End
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill3_2_End
+      position:
+        serializedVersion: 2
+        x: 678.91406
+        y: 1248.5156
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.70000005
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.70000005
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.70000005
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.8333335
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill3_2_End
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill3_4_End
+      position:
+        serializedVersion: 2
+        x: 680.46094
+        y: 1455.3203
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.7222222
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.7222222
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.7222222
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.90000004
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill3_4_End
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Skill3_3B
+      position:
+        serializedVersion: 2
+        x: 525.85156
+        y: 1388.9688
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillLeaveState
+        duration: 0.25
+        exitTime: 0.7727274
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.7727274
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillAniExitTime
+        duration: 0.25
+        exitTime: 0.7727274
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 1.1000004
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Skill3_3B
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: 00000000
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.Actions.FsmMoveAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames:
+        - 
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Walk
+      position:
+        serializedVersion: 2
+        x: 894.66406
+        y: 513.03906
+        width: 100
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: IDLE
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Idle
+        duration: 0.09070915
+        exitTime: 0.9276322
+        hasExitTime: 0
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.6875
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: AttackEnterState
+        duration: 0.25
+        exitTime: 0.6875
+        hasExitTime: 0
+        hasFixedDuration: 1
+        offset: 0
+      looping: 1
+      AnimLength: 0.8000001
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Walk
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: WalkState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Attack1
+      position:
+        serializedVersion: 2
+        x: 1338.6562
+        y: 698.91406
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Attack2
+        duration: 0.092852175
+        exitTime: 0.8746575
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0.011627854
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Attack1_End
+        duration: 0.061767936
+        exitTime: 0.915771
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: AttackLeaveState
+        duration: 0.25
+        exitTime: 0.6590909
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.73333335
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Attack1
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: AttackState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Attack2
+      position:
+        serializedVersion: 2
+        x: 1336.6562
+        y: 775.91406
+        width: 127
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Attack3
+        duration: 0.09941679
+        exitTime: 0.85532194
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Attack2_End
+        duration: 0
+        exitTime: 1
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0.003604441
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: AttackLeaveState
+        duration: 0.25
+        exitTime: 0.6428572
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.70000005
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Attack2
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: AttackState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Attack3
+      position:
+        serializedVersion: 2
+        x: 1334.1797
+        y: 853.0781
+        width: 127
+        height: 48
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: AttackLeaveState
+        duration: 0.25
+        exitTime: 0.7222222
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: AttackAniExitTime
+        duration: 0.09713316
+        exitTime: 0.8892764
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.9000001
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Attack3
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: AttackState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Attack1_End
+      position:
+        serializedVersion: 2
+        x: 1482.6562
+        y: 699.91406
+        width: 127
+        height: 48
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: AttackAniExitTime
+        duration: 0.06637487
+        exitTime: 0.8340629
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: AttackLeaveState
+        duration: 0.25
+        exitTime: 0.37500012
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.4000001
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Attack1_End
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: AttackState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Attack2_End
+      position:
+        serializedVersion: 2
+        x: 1484.6562
+        y: 760.91406
+        width: 127
+        height: 48
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: AttackAniExitTime
+        duration: 0.06464732
+        exitTime: 0.8383818
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: AttackLeaveState
+        duration: 0.25
+        exitTime: 0.37500012
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.4000001
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Attack2_End
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: AttackState
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: 00000000
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.FsmSkillEnterAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames:
+        - 
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: SkillEnterState
+      position:
+        serializedVersion: 2
+        x: 238.92969
+        y: 867.9297
+        width: 119
+        height: 256
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill1_1
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill1_1
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill1_2
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill1_2
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill1_3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill1_3
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill1_4
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill1_4
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill1_5
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill1_5
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill2_1
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill2_1
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill2_2
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill2_2
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill2_3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill2_3
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill2_4
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill2_4
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill3_1
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill3_1
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill3_2
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill3_2
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill3_3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill3_3
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill3_3B
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill3_3B
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill3_4
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill3_4
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: Skill3_5
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Skill3_5
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 0
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: 
+      m_stateID: 0
+      m_skillState: 1
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: 00000000
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.FsmSkillLeaveAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames:
+        - 
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: SkillLeaveState
+      position:
+        serializedVersion: 2
+        x: 936.85156
+        y: 935.10156
+        width: 124
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: AttackEnterState
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 0
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: 
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: 00000000
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.FsmSkillLeaveAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames:
+        - 
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: SkillAniExitTime
+      position:
+        serializedVersion: 2
+        x: 938.84375
+        y: 987.41406
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Idle
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 0
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: 
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: SkillState
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: 00000000
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.FsmAttackEnterAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames:
+        - 
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: AttackEnterState
+      position:
+        serializedVersion: 2
+        x: 1138.7578
+        y: 707.66406
+        width: 132
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Attack1
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 0
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: 
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: AttackState
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: 00000000
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.FsmAttackLeaveAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames:
+        - 
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: AttackLeaveState
+      position:
+        serializedVersion: 2
+        x: 1139
+        y: 757
+        width: 137
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 0
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: 
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: AttackState
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: 00000000
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.FsmAttackLeaveAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames:
+        - 
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: AttackAniExitTime
+      position:
+        serializedVersion: 2
+        x: 1134
+        y: 808
+        width: 140
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Idle
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 0
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: 
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: AttackState
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: 00000000
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.Actions.FsmNormalHitAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames:
+        - 
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: NormalHit
+      position:
+        serializedVersion: 2
+        x: 314.39062
+        y: 382.3203
+        width: 117
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: HIGH_RIGHT
+        linkConstraint: 0
+        linkStyle: 0
+        toState: HIGH_RIGHT
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: HIGH_CENTER
+        linkConstraint: 0
+        linkStyle: 0
+        toState: HIGH_CENTER
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: HIGH_LEFT
+        linkConstraint: 0
+        linkStyle: 0
+        toState: HIGH_LEFT
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 0
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: 
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: HitState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: HIGH_CENTER
+      position:
+        serializedVersion: 2
+        x: 306.14062
+        y: 474.34375
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: HitEnd
+        duration: 0.10745716
+        exitTime: 0.8534675
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.73333335
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: HIGH_CENTER
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: HitState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: HIGH_LEFT
+      position:
+        serializedVersion: 2
+        x: 166.14062
+        y: 475.375
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: HitEnd
+        duration: 0.09449875
+        exitTime: 0.87113804
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.7333338
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: HIGH_LEFT
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: HitState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: HIGH_RIGHT
+      position:
+        serializedVersion: 2
+        x: 447.53906
+        y: 475.375
+        width: 127
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: HitEnd
+        duration: 0.09881818
+        exitTime: 0.86524796
+        hasExitTime: 1
+        hasFixedDuration: 1
+        offset: 0
+      looping: 0
+      AnimLength: 0.73333347
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: HIGH_RIGHT
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: HitState
+    - actionData:
+        actionEnabled: 01
+        actionHashCodes: 00000000
+        actionIsOpen: 01
+        actionNames:
+        - HutongGames.PlayMaker.Actions.FsmBlockingEndAction
+        actionStartIndex: 00000000
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames:
+        - 
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: BlockingEndState
+      position:
+        serializedVersion: 2
+        x: 1369
+        y: 470
+        width: 135
+        height: 32
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Idle
+        duration: 0
+        exitTime: 0
+        hasExitTime: 1
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 0
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: 
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: BlockingState
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: Idle
+      position:
+        serializedVersion: 2
+        x: 898
+        y: 433
+        width: 100
+        height: 64
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: WALK
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Walk
+        duration: 0.06901765
+        exitTime: 0.9349625
+        hasExitTime: 0
+        hasFixedDuration: 1
+        offset: 0.2651268
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: G_SKILL
+        linkConstraint: 0
+        linkStyle: 0
+        toState: SkillEnterState
+        duration: 0.25
+        exitTime: 0.8125
+        hasExitTime: 0
+        hasFixedDuration: 1
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: FIRE3
+        linkConstraint: 0
+        linkStyle: 0
+        toState: AttackEnterState
+        duration: 0.1
+        exitTime: 0.925
+        hasExitTime: 0
+        hasFixedDuration: 1
+        offset: 0
+      looping: 1
+      AnimLength: 1.3333334
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: Idle
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: Root
+    - actionData:
+        actionEnabled: 
+        actionHashCodes: 
+        actionIsOpen: 
+        actionNames: []
+        actionStartIndex: 
+        animationCurveParams: []
+        arrayParamSizes: 
+        arrayParamTypes: []
+        byteData: 
+        customNames: []
+        customTypeNames: []
+        customTypeSizes: 
+        fsmEventTargetParams: []
+        fsmGameObjectParams: []
+        fsmObjectParams: []
+        fsmOwnerDefaultParams: []
+        fsmPropertyParams: []
+        fsmStringParams: []
+        fsmTemplateControlParams: []
+        fsmVarParams: []
+        functionCallParams: []
+        layoutOptionParams: []
+        paramByteDataSize: 
+        paramDataPos: 
+        paramDataType: 
+        paramName: []
+        unityObjectParams: []
+      colorIndex: 0
+      description: 
+      hideUnused: 0
+      isBreakpoint: 0
+      isSequence: 0
+      name: WalkStop
+      position:
+        serializedVersion: 2
+        x: 871.35156
+        y: 607.5625
+        width: 127
+        height: 48
+      transitions:
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: WALK
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Walk
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      - colorIndex: 0
+        fsmEvent:
+          isGlobal: 0
+          isSystemEvent: 0
+          name: ANI_EXIT_TIME
+        linkConstraint: 0
+        linkStyle: 0
+        toState: Idle
+        duration: 0
+        exitTime: 0
+        hasExitTime: 0
+        hasFixedDuration: 0
+        offset: 0
+      looping: 0
+      AnimLength: 0
+      m_destAnimation:
+        name: 
+        showInInspector: 0
+        tooltip: 
+        useVariable: 0
+        value: 
+      m_stateID: 0
+      m_skillState: 0
+      ParentStateName: Root
+    StepFrame: 0
+    usedInTemplate: {fileID: 0}
+    variables:
+      boolVariables: []
+      colorVariables: []
+      floatVariables: []
+      gameObjectVariables: []
+      intVariables: []
+      materialVariables: []
+      objectVariables: []
+      quaternionVariables: []
+      rectVariables: []
+      stringVariables: []
+      textureVariables: []
+      vector2Variables: []
+      vector3Variables: []
+    version: 0
+  fsmTemplate: {fileID: 0}
